@@ -1,0 +1,21 @@
+# Dependências e build
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Material de referência e configuração do Claude Code — não faz parte do site
+CLAUDE.md
+.claude/
+references/
+*.pdf
