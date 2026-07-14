@@ -2,6 +2,9 @@ import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { artigos } from "@/lib/artigos";
 
+// Necessário para exportação estática (output: "export").
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const paginasEstaticas: MetadataRoute.Sitemap = [
     { url: site.dominio, changeFrequency: "monthly", priority: 1 },
