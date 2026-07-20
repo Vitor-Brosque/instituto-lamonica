@@ -4,14 +4,14 @@ import Placeholder from "@/components/placeholder";
 const profissionais = [
   {
     foto: "Foto — médico (substituir por foto real)",
-    nome: "[Nome do médico]",
+    nome: "Victor Lamônica",
     papel: "Médico",
     bio: "[Bio — formação, área de atuação e abordagem clínica. Inserir texto real.]",
     registro: "[CRM e titulações — inserir dados reais]",
   },
   {
     foto: "Foto — nutricionista (substituir por foto real)",
-    nome: "[Nome da nutricionista]",
+    nome: "Isabella Lamônica",
     papel: "Nutricionista",
     bio: "[Bio — formação, área de atuação e abordagem nutricional. Inserir texto real.]",
     registro: "[CRN e titulações — inserir dados reais]",
